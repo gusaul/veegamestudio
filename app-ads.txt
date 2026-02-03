@@ -511,3 +511,5 @@ appnexus.com, 15980, RESELLER, f5ab79cb980f11d1
 prado.co, 14260, RESELLER
 loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
+smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
