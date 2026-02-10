@@ -191,7 +191,8 @@ nav a.active {
 
     /* Animations */
     animation:
-        shimmerHero 8s linear infinite,
+        shimmerHero 4s linear infinite,
+        /* Sped up from 8s */
         floatHero 6s ease-in-out infinite,
         fadeInUp 0.8s ease-out;
 
@@ -201,11 +202,11 @@ nav a.active {
 
 @keyframes shimmerHero {
     0% {
-        background-position: -100% center;
+        background-position: -50% center;
     }
 
     100% {
-        background-position: 100% center;
+        background-position: 150% center;
     }
 }
 
@@ -498,10 +499,19 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        /* Increased from 2.5rem */
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+        /* Decreased from 1.25rem */
+        padding: 0 1rem;
     }
 
     .store-links {
         flex-direction: column;
+        gap: 1.5rem;
     }
 }
